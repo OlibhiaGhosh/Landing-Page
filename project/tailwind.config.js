@@ -11,6 +11,10 @@ export default {
         'gradient':'gradient-to-r from-[#1C1C1C] from-10% via-[#E3E3E3] via-30% to-[#1C1C1C] to-90%'
       },
     },
+    fontFamily: {
+      'sans': ['Outfit', 'sans-serif'],
+      // ... other font families
+    },
   },
   plugins: [],
 }
