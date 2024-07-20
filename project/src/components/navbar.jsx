@@ -3,7 +3,7 @@ import logo from '../assets/logo.png'
 function Navbar(){
     return(
         <>
-         <div className="w-full bg-gradient-to-r from-black from-10% via-blue-950 via-50% to-black to-99% text-white flex justify-around items-center p-3">
+         <div className="w-full bg-gradient-to-r from-black from-10% via-blue-950 via-50% to-black to-99% text-white flex justify-around max-sm:justify-between items-center p-3 max-sm:p-6">
             <div>
                 <img src={logo} alt="logo" width={60} />
             </div>
